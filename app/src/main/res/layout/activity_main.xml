@@ -12,15 +12,17 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/page2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onNextPageButtonPressed"
+            android:text="Goto Page 2" />
+
+        <Button
             android:id="@+id/page3Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Goto Page 3s" />
-
-        <Button
-            android:id="@+id/page2Button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Goto Page 2" />
+            android:onClick="onNextPageButtonPressed"
+            android:text="Goto Page 3" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

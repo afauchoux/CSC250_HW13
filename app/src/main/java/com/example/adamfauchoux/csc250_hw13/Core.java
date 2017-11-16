@@ -1,15 +1,10 @@
 package com.example.adamfauchoux.csc250_hw13;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+/**
+ * Created by adamfauchoux on 11/15/17.
+ */
 
-public class Core extends AppCompatActivity
+public class Core
 {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_core);
-    }
+    public static String myName;
 }

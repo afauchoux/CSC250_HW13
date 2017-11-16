@@ -10,6 +10,8 @@ public class Screen3 extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_screen3);
+        this.setContentView(R.layout.activity_screen3);
+        String theName = this.getIntent().getStringExtra("myName");
+        System.out.println(theName);
     }
 }
